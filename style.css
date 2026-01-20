@@ -17,7 +17,7 @@ body {
 
 
     .container {
-      max-width: 550px;
+      max-width: 650px;
       margin: auto;
       background: #ffffff;
       padding: 18px;
@@ -41,7 +41,7 @@ body {
 
     select, input {
       flex: 1;
-      padding: 12px;
+      padding: 5px;
       font-size: 16px;
       border-radius: 8px;
       border: 1px solid #ccc;
@@ -74,13 +74,13 @@ body {
     }
 
     .delete-btn {
-      background: #e10b20;
+      background: #dd0016;
       color: white;
       border: none;
-      padding: 3px;
-      border-radius: 3px;
+      padding: 2px;
+      border-radius: 2px;
       cursor: pointer;
-      width: 25px;
+      width: 20px;
       flex-shrink: 0;
     }
 
