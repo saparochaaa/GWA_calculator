@@ -1,0 +1,112 @@
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+body {
+  margin: 0;
+  padding: 15px;
+  background-image: 
+    url('BG.jpg'); /* your image */
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  background-position: top left;
+  overflow-x: hidden;
+}
+
+
+
+    .container {
+      max-width: 550px;
+      margin: auto;
+      background: #ffffff;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 2;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+
+    .row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    select, input {
+      flex: 1;
+      padding: 12px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      background: white;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      margin-top: 8px;
+    }
+
+    .add-btn {
+      background: #6c757d;
+      color: #fff;
+    }
+
+    .calc-btn {
+      background: #007bff;
+      color: #fff;
+    }
+
+    .clear-btn {
+      background: #e42a2a;
+      color: #fff;
+    }
+
+    .delete-btn {
+      background: #e10b20;
+      color: white;
+      border: none;
+      padding: 3px;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 25px;
+      flex-shrink: 0;
+    }
+
+    .result {
+      margin-top: 15px;
+      padding: 12px;
+      background: #e9f2ff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    /* 🎊 Confetti */
+    .confetti {
+      position: fixed;
+      top: -10px;
+      width: 10px;
+      height: 10px;
+      animation: fall 5s linear forwards;
+      z-index: 1;
+    }
+
+    @keyframes fall {
+      to {
+        transform: translateY(200vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
